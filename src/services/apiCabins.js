@@ -22,7 +22,7 @@ export async function deleteCabin(id) {
 export async function createEditCabin(newCabin, id) {
   // https://wonozzbgygpirndokbog.supabase.co/storage/v1/object/public/cabin_images/cabin-001.jpg
 
-  console.log(newCabin, id);
+  // console.log(newCabin, id);
   // has image
   const hasImagePath = newCabin.image?.startsWith?.(supabaseUrl);
 
